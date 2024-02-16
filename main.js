@@ -13,7 +13,7 @@ export var HomePage = astronaut.component("HomePage", function(props, children) 
     return Page(props) (
         Section (
             Container({attributes: {"aui-justify": "middle"}}) (
-                Heading({level: 1, styles: {fontSize: "rem"}}) (
+                Heading({level: 1}) (
                     BrandWordmark(_("livegContributorsHub")) (
                         Text(_("livegContributorsHub_wordmark"))
                     )
