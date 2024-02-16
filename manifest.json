@@ -1,0 +1,21 @@
+{
+    "name": "LiveG Contributors Hub",
+    "short_name": "Contributors Hub",
+    "description": "A central place for our contributors to find information on all our projects.",
+    "icons": [
+        {
+            "src": "/media/icon.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "/media/appicon.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "maskable"
+        }
+    ],
+    "scope": "/",
+    "start_url": "/",
+    "display": "standalone"
+}
