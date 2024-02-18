@@ -29,7 +29,7 @@ export var MainScreen = astronaut.component("MainScreen", function(props, childr
 
     return Screen(props) (
         Header (
-            HeaderPageMenuButton({iconType: "dark"}) (),
+            HeaderPageMenuButton({alt: _("openMenu"), iconType: "dark"}) (),
             Text(_("livegContributorsHub"))
         ),
         PageMenu (
